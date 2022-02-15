@@ -1,4 +1,6 @@
 nombre = input("Escribe tu nombre: ")
+docente = ("Rippe")
+
 
 print("Buenos dias " + nombre + ", por favor responde a las siguientes preguntas ")
 
@@ -21,8 +23,15 @@ promedio = float(materia)
 
 if promedio >= 3:
     print("Felicidades " + estudiante + " APROBO el trabajo con un promedio de:", promedio)
+    print("FELICIDADES " + estudiante + "APROBO el trabajo con un promedio de: ", (promedio,2))
 
-print( estudiante , "Ya puede seguir durmiendo " )
+else:
+    print("lo sientimos " + estudiante + "has reprobado el trabajo con un promedio de: ", promedio)
+    print("lo sientimos " + estudiante + "has reprobado el trabajo con un promedio de:  ", (promedio,2))
+    
+
+
+print( docente , "Ya puede seguir durmiendo " )
 
 
 
